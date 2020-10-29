@@ -1,5 +1,5 @@
 .site-navbar{
-    color: $text-color;
+    color: $text-light;
     display: flex;
     min-width: 100%;
     height: 4.06325rem;
@@ -34,10 +34,10 @@
             text-decoration: none;
             padding: 0 1.25rem 0 1.25rem;
             font-size: 1.125rem;
-            color: $text-color;
+            color: $text-light;
 
             &:active{
-                border-bottom: 0.125rem solid $text-link;
+                border-bottom: 0.125rem solid $text-bold;
             }
 
             &:hover{

@@ -3,7 +3,9 @@ import React from "react";
 export default function Home(){
     return(
         <div className="page_body">
-            Home
+            <div className="container">
+                
+            </div>
         </div>
     );
 }

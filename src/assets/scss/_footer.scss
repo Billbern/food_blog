@@ -2,8 +2,41 @@
     height: 4rem;
     width: 100%;
     display: flex;
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    bottom: calc(0rem - 4.06325rem - 71vh);
     justify-content: space-between;
+    align-items: center;
     background: white;
+    
+    span{
+        color: $text-light;
+        margin-left: 1.25rem;
+    }
+
+    .follow_us{
+        margin-right: 1.25rem;
+        color: $text-light;
+
+        .fb{
+            color: #3b5998;
+        }
+
+        .ig{color: #405de6;
+
+        }
+        .tw{
+            color: #00acee;
+        }
+
+        .fb, .ig, .tw{
+            margin-left: 1.25rem;
+            text-decoration: none;
+            transition: transform 0.5s ease-in-out;
+
+            &:hover{
+                transform: rotate(360deg);
+            }
+        }
+
+    }
 }
