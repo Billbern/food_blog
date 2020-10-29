@@ -1,0 +1,49 @@
+.site-navbar{
+    color: $text-color;
+    display: flex;
+    min-width: 100%;
+    height: 4.06325rem;
+    background-color: white;
+    justify-content: space-between;
+    box-shadow: 0 0.25rem 0.125rem -0.125rem rgba($color: #f5f5f5, $alpha: 1.0);
+
+    span{
+        font-size: 1.5rem;
+        font-weight: 400;
+        display: flex;
+        align-items: center;
+        margin-left: 1.875rem;
+
+        a{
+            text-decoration: none;
+            color: $text-dark;
+        }
+    }
+
+    ul{
+        height: 100%;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        padding-inline-start: 0;
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        margin-right: 1.25rem;
+
+        a{
+            text-decoration: none;
+            padding: 0 1.25rem 0 1.25rem;
+            font-size: 1.125rem;
+            color: $text-color;
+
+            &:active{
+                border-bottom: 0.125rem solid $text-link;
+            }
+
+            &:hover{
+                color: $text-gleam;
+            }
+        }
+
+    }
+}
